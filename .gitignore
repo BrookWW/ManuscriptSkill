@@ -1,0 +1,31 @@
+# Local review inputs and outputs are never part of the skill distribution.
+manuscript-runs/
+paper-reviews/
+runs/
+round-*/
+.audit-work/
+
+# Credentials, agent state, and local configuration.
+auth.json
+.env
+.env.*
+.codex/
+.agents/
+.claude/
+sessions/
+archived_sessions/
+rollout-*.jsonl
+history.jsonl
+state_*.sqlite*
+
+# Developer and operating-system artifacts.
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage*
+dist/
+*.zip

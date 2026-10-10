@@ -1,0 +1,2 @@
+# Package metadata checks only; the installed skill has no Python dependency.
+PyYAML==6.0.2

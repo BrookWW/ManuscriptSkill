@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mathematical Manuscript Review"
+  short_description: "Review mathematics manuscripts one round at a time"
+  default_prompt: "Use $mathematical-manuscript-review for one full review and revision round, preserving the input and delivering complete sources, report.md, and handoff.json."
